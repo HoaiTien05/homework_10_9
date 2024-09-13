@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    
+</head>
+<body>
+    <div class="container">
+        <h1> New Product</h1>
+        <form name="form">
+            <div class="group">
+                <div class="group1"> Product name
+                    <input type="text" id="pname" name="pname">
+                </div>
+                <div class="group1"> Quatity
+                    <input type="text" id="qty" name="quatity">
+                </div>
+            </div>
+                <div class="group">
+                <div class="group2"> Unit Price
+                    <input type="text" id="Uprice" name="unitprice">
+                </div>
+                <div class="group2"> Discount
+                    <input type="text" id="count" name="discount">   
+                </div>
+            </div>
+            <div class="button">
+                <button type="button" onclick="sell()"> Sell </button>
+                <button type="button"> Cancel </button>
+            </div>
+        </form>
+        <table  id="table">
+            <tr>
+                <th>ID</th>
+                <th>Product Name</th>
+                <th>Quatity</th>
+                <th>Unit Price</th>
+                <th>Discount</th>
+                <th>Subtotal</th>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
