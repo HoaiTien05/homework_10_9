@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <script src="./index.js"></script>
+    <div class="container">
+        <h1 id="h1"> Clothes</h1>
+        <form id="frm">
+            <div class="group1">
+                <div id="box1">Product Name
+                <input type="text" id="pname" name="pname">
+                </div>
+
+                <div id="box2"> Product Quatity
+                <input type="text" id="qty" name="qty">
+                </div>
+
+                <div id="box3"> Product Price
+                <input type="text" id="price" name="price">
+                </div>
+            </div>
+            <input id="add" type="button" onclick="addFunction()" value="Add">
+        </form>
+        <table id="table">
+            <tr>
+                <th>No</th>
+                <th>Product</th>
+                <th>Quatity</th>
+                <th>Price</th>
+                <th>Sub Tatol</th>
+            </tr>
+            <tfoot>
+                <td colspan="4" ><b>Total</b></td>
+                <td id ="total">$0</td>
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>
